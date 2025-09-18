@@ -1,0 +1,71 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+	overlay: {
+		...StyleSheet.absoluteFillObject,
+		justifyContent: 'center',
+		alignItems: 'center',
+		zIndex: 9999,
+	},
+	alertContainer: {
+		backgroundColor: '#fff',
+		borderRadius: 12,
+		padding: 24,
+		width: '85%',
+		maxWidth: 320,
+		alignItems: 'center',
+		elevation: 6,
+		shadowColor: '#000',
+		shadowOpacity: 0.2,
+		shadowOffset: { width: 0, height: 2 },
+		shadowRadius: 6,
+	},
+	title: {
+		fontFamily: 'Neo Sans Std',
+		fontSize: 18,
+		fontWeight: 'bold',
+		textAlign: 'center',
+		marginBottom: 8,
+	},
+	subtitle: {
+		fontFamily: 'Neo Sans Std',
+		fontSize: 15,
+		color: '#666',
+		textAlign: 'center',
+		marginBottom: 20,
+	},
+	buttonsContainer: {
+		flexDirection: 'row',
+		width: '100%',
+		justifyContent: 'space-between',
+	},
+	cancelButton: {
+		backgroundColor: '#ccc',
+		paddingVertical: 10,
+		paddingHorizontal: 12,
+		borderRadius: 8,
+		flex: 1,
+		marginRight: 8,
+		alignItems: 'center',
+	},
+	acceptButton: {
+		backgroundColor: '#EF4D23',
+		paddingVertical: 10,
+		paddingHorizontal: 12,
+		borderRadius: 8,
+		flex: 1,
+		marginLeft: 8,
+		alignItems: 'center',
+	},
+	cancelText: {
+		color: '#fff',
+		fontSize: 15,
+		fontFamily: 'Neo Sans Std',
+	},
+	acceptText: {
+		color: '#fff',
+		fontSize: 15,
+		fontFamily: 'Neo Sans Std',
+		fontWeight: 'bold',
+	},
+});

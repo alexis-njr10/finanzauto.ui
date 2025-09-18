@@ -1,0 +1,111 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 20
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    color: '#444',
+    marginBottom: 24,
+    textAlign: 'left',
+  },
+  cardWrapper: {
+    backgroundColor: '#EFEFEF',
+    borderRadius: 15,
+    marginVertical: 10,
+    marginHorizontal: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+    elevation: 3,
+    position: 'relative',
+  },
+  topSection: {
+    padding: 15,
+    paddingBottom: 20,
+    backgroundColor: '#CCE6E3',
+    borderRadius: 15,
+  },
+  infoSection: {
+    marginLeft: 150,
+  },
+  nameText: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#166D6B',
+    lineHeight: 22,
+  },
+  idText: {
+    fontSize: 12,
+    color: '#4E4E4E',
+    marginTop: 4,
+  },
+  bottomSection: {
+    paddingHorizontal: 15,
+    paddingVertical: 15,
+    backgroundColor: '#EFEFEF',
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15
+  },
+  detailsButton: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginLeft: 150,
+  },
+  detailsText: {
+    fontSize: 14,
+    color: '#166D6B',
+    fontWeight: '500',
+  },
+  detailsArrow: {
+    fontSize: 14,
+    color: '#166D6B',
+    fontWeight: 'bold',
+  },
+  imageContainer: {
+    position: 'absolute',
+    left: 15,
+    top: 15,
+    width: 120,
+    height: 120,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 20,
+    borderWidth: 1,
+    borderColor: '#707070',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  imagePlaceholder: {
+    width: 100,
+    height: 100,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 20,
+  },
+  deleteAction: {
+    backgroundColor: '#F8D7DA',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderTopRightRadius: 15,
+    borderBottomRightRadius: 15,
+    height: '100%',
+    flex: 1,
+    marginVertical: 10,
+    marginHorizontal: 15,
+    flexDirection: 'row',
+  },
+  deleteButton: {
+    width: 70,
+    height: '100%',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderTopRightRadius: 15,
+    borderBottomRightRadius: 15,
+    backgroundColor: 'transparent',
+  },
+});

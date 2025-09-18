@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Finanzauto",
+    "slug": "finanzauto",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./src/presentation/assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/presentation/assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#A2D033"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.finanzauto.co.prueba",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/presentation/assets/images/adaptive-icon.png",
+        "backgroundColor": "#A2D033"
+      },
+      "package": "com.finanzauto.co.prueba"
+    },
+    "web": {
+      "favicon": "./src/presentation/assets/images/favicon.png"
+    },
+    "plugins": [],
+    "newArchEnabled": true,
+    "extra": {
+      "apiUrl": {
+        "development": "https://dummyapi.io/data/v1",
+        "preview": "https://dummyapi.io/data/v1",
+        "production": ""
+      },
+      "appId": {
+        "development": "63473330c1927d386ca6a3a5",
+        "preview": "63473330c1927d386ca6a3a5",
+        "production": ""
+      },
+      "withCredentials": true,
+      "eas": {
+        "projectId": "40d6f763-3b7d-405f-a289-b3f1cbea8b1f"
+      }
+    },
+    "owner": "alexis-apps"
+  }
+}
