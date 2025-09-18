@@ -92,7 +92,7 @@ const Layout: React.FC<LayoutProps> = ({
 
 				{/* Bottom Navigation */}
 				<View style={styles.bottomNav}>
-					<TouchableOpacity style={styles.navItem}>
+					<TouchableOpacity style={styles.navItem} onPress={() => navigation.navigate('UsersList')}>
 						<MaterialIcons name="home" size={24} color="#166D6B" />
 					</TouchableOpacity>
 					<TouchableOpacity style={styles.navItem}>

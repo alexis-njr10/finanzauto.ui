@@ -106,7 +106,6 @@ const UsersListScreen = () => {
         loading$.next(true);
         var result;
         try {
-
           result = await deleteUser(id);
         } finally {
           if (result?.succeeded) {
