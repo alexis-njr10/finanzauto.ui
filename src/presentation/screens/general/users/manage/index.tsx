@@ -13,7 +13,7 @@ import { NavigationProp, RouteProp, useNavigation, useRoute } from "@react-navig
 import { checkConnection } from "@/presentation/utils/network";
 import { useUsersStore } from "../users.store";
 import { loading$ } from "@/presentation/plugins/loading";
-import { showAlert } from "@/infrastructure/services/alert.service";
+import { showAlert } from "@/presentation/services/alert.service";
 import { styles } from "./styles";
 
 const schema = Yup.object({

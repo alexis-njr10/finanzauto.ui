@@ -8,7 +8,7 @@ import { SwipeListView } from 'react-native-swipe-list-view';
 import Layout from "@/presentation/screens/shared/components/layout";
 import { checkConnection } from "@/presentation/utils/network";
 import { loading$ } from "@/presentation/plugins/loading";
-import { showToast } from "@/infrastructure/services/alert.service";
+import { showToast } from "@/presentation/services/alert.service";
 import { styles } from "./styles";
 
 
