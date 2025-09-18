@@ -1,13 +1,13 @@
-import { GetUsersPaginatedListQueryResponse } from "@/application/features/general/auth/queries/getUsersPaginatedList/get-users-paginated-list.query.response";
-import { GetUsersPaginatedListQuery } from "@/application/features/general/auth/queries/getUsersPaginatedList/get-users-paginated-list.query";
+import { GetUsersPaginatedListQueryResponse } from "@/application/features/general/users/queries/getUsersPaginatedList/get-users-paginated-list.query.response";
+import { GetUsersPaginatedListQuery } from "@/application/features/general/users/queries/getUsersPaginatedList/get-users-paginated-list.query";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { createJSONStorage, persist } from "zustand/middleware";
 import { mediator } from "@/application/core/mediator";
 import { create } from "zustand";
 import { IUser } from "./interfaces/user.interface";
-import { DeleteUserCommand } from "@/application/features/general/auth/commands/delete/delete.command";
-import { CreateUserCommand } from "@/application/features/general/auth/commands/create/create.command";
-import { UpdateUserCommand } from "@/application/features/general/auth/commands/update/update.command";
+import { DeleteUserCommand } from "@/application/features/general/users/commands/delete/delete.command";
+import { CreateUserCommand } from "@/application/features/general/users/commands/create/create.command";
+import { UpdateUserCommand } from "@/application/features/general/users/commands/update/update.command";
 import { IResponse } from "@/domain/models/response.model";
 
 interface UsersState {
